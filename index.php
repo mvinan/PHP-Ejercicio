@@ -5,7 +5,9 @@
 	<title>PHP</title>
 </head>
 <body>
-	
+	<?php echo "hello world"; ?>
+	<h1>Hola !</h1>
+	<p>Codearemos aplicaciones cool aqui</p>
 
 </body>
 </html>
