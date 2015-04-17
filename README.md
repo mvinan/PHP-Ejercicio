@@ -1,2 +1,2 @@
 # PHP-Ejercicio
-Ejerciciso de PHP con laravel
+Ejercicios de PHP con laravel
