@@ -6,6 +6,9 @@
 	require 'config.php';
 	require 'helpers.php';
 
+	//library
+	require 'library/Request.php';
+
 	//llamar al controlador indicado
 	
 	/*
@@ -22,6 +25,24 @@
 	 *}
 	*/
 
-	controller( $_GET['url'] );
+	// controller( $_GET['url'] );
 
 	// var_dump($_GET);
+
+	if (empty($_GET['url'])) 
+	{
+		$url = "";
+	}
+	else
+	{
+		$url = $_GET['url'];
+	}
+
+	$request = new Request($url);
+
+	var_dump($request->getUrl());
+
+
+
+
+	

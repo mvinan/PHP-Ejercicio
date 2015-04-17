@@ -1,3 +1,18 @@
 <?php 
-	
-	view('contactos');
+
+class ContactosController {
+
+	public function indexAction()
+	{
+
+		view('contactos');
+
+	}
+
+	public function cityAction($city)
+	{
+
+	}
+
+
+}
