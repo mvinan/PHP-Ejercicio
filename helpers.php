@@ -9,7 +9,7 @@
 
 	function controller($name)
 	{
-		if (empty($name)) 
+		if (empty($name))
 		{
 			$name = 'home';
 		}
@@ -28,4 +28,4 @@
 			header("HTTP/1.0 404 Not Found");
 			require "views/404.tpl.php";
 		}
-	}
+	} 

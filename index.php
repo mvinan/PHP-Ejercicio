@@ -8,6 +8,7 @@
 
 	//library
 	require 'library/Request.php';
+	require 'library/Inflector.php';
 
 	//llamar al controlador indicado
 	
@@ -39,8 +40,8 @@
 	}
 
 	$request = new Request($url);
-
-	var_dump($request->getUrl());
+	$request->execute();
+	// var_dump($request->getParams());
 
 
 
