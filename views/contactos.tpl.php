@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>PHP</title>
+	<title>Contactos</title>
 </head>
 <body>
-	
-
+	<h1>Contactos</h1>
+	<p>contactos@mejorando.la</p>
 </body>
 </html>
